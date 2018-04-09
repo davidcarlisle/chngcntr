@@ -1,0 +1,7 @@
+pdflatex chngcntr
+pdflatex chngcntr
+cd ..
+rm -rf chngcntr.zip
+zip  chngcntr.zip chngcntr/README.md chngcntr/chngcntr.{pdf,tex,sty}
+mv chngcntr.zip chngcntr
+
